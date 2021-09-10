@@ -27,15 +27,15 @@ class MainActivity : AppCompatActivity() {
         recycler.layoutManager = layoutManager
 
         recycler.adapter = MoviesAdapter(listOf(
-            Movie("Gato 1", "https://loremflickr.com/320/240?lock=1"),
-            Movie("Gato 2", "https://loremflickr.com/320/240?lock=2"),
-            Movie("Gato 3", "https://loremflickr.com/320/240?lock=3"),
-            Movie("Gato 4", "https://loremflickr.com/320/240?lock=4"),
-            Movie("Gato 5", "https://loremflickr.com/320/240?lock=5"),
-            Movie("Gato 6", "https://loremflickr.com/320/240?lock=6"),
-            Movie("Gato 7", "https://loremflickr.com/320/240?lock=7"),
-            Movie("Gato 8", "https://loremflickr.com/320/240?lock=8"),
-            Movie("Gato 9", "https://loremflickr.com/320/240?lock=9"),
+            Movie("MASCOTA 1", "https://loremflickr.com/320/240?lock=1"),
+            Movie("MASCOTA 2", "https://loremflickr.com/320/240?lock=2"),
+            Movie("MASCOTA 3", "https://loremflickr.com/320/240?lock=3"),
+            Movie("MASCOTA 4", "https://loremflickr.com/320/240?lock=4"),
+            Movie("MASCOTA 5", "https://loremflickr.com/320/240?lock=5"),
+            Movie("MASCOTA 6", "https://loremflickr.com/320/240?lock=6"),
+            Movie("MASCOTA 7", "https://loremflickr.com/320/240?lock=7"),
+            Movie("MASCOTA 8", "https://loremflickr.com/320/240?lock=8"),
+            Movie("MASCOTA 9", "https://loremflickr.com/320/240?lock=9"),
         ))
 
         //val movie = findViewById<MovieView>(R.id.movie)

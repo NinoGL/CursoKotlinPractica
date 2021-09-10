@@ -23,6 +23,7 @@
         android:background="@color/design_default_color_primary"
         android:padding="8dp"
         android:text="Gato N°"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/white" />
 </LinearLayout>
