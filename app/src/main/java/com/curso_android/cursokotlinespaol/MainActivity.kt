@@ -43,13 +43,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
-
-
-
-
-
-
     override fun onStart() {
         Log.d(tag,"onStart")
         super.onStart()

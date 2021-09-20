@@ -18,7 +18,7 @@ class MovieView @JvmOverloads constructor(
         init{
             val view = LayoutInflater
                 .from(context).
-                inflate(R.layout.view_movie, this, true)
+                inflate(R.layout.view_cats, this, true)
 
             cover = view.findViewById(R.id.cover2)
             title = view.findViewById(R.id.textView2)
@@ -26,7 +26,7 @@ class MovieView @JvmOverloads constructor(
             orientation = VERTICAL
         }
 
-    fun setMovie(movie: Movie){
+    fun setCat(movie: Movie){
         title.text = movie.title
         Glide.with(context).load(movie.cover).into(cover)
     }
